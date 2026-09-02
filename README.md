@@ -7,9 +7,9 @@ I'm a final-year CSE student building responsive web applications with HTML, CSS
 
 ```
 name:        Mohamed Zameer J
-role:        Computer Science Engineering Student & Web Developer
+role:        Full Stack Developer, Software Developer , Web Developer and Junior Software Developer
 status:      Final year (2023 - 2027)
-learning:    AI applications, cybersecurity fundamentals
+learning:    AI applications, AI/ML Models
 open_to:     Internships · Junior roles · Collaborations
 contact:     mohamedzameerofficial26@gmail.com
 ```
