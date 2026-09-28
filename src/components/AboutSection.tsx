@@ -6,7 +6,7 @@ import { GitHubCalendar } from 'react-github-calendar';
 
 
 const ABOUT_TEXT =
-  "I'm a final-year Computer Science and Engineering student at Nehru Institute of Technology, with hands-on experience building responsive web applications through internships at Zouis Corp and Codec Technologies. I enjoy working across the stack with PHP, MySQL, JavaScript, Java, and Python, and I've contributed to real-world projects like an e-commerce storefront and an event booking platform. I'm curious about AI applications and cybersecurity, and I'm looking to grow as a software developer who builds practical, user-friendly solutions.";
+  "I'm a final-year Computer Science and Engineering student at Nehru Institute of Technology with hands-on web development experience from my internship at Zouis Corp. I build full-stack solutions with Python, Java, JavaScript, React.js, Next.js, Node.js, and Flask, paired with practical skills in AI / Computer Vision (YOLOv8) and modern database systems. Passionate about engineering high-performance, user-friendly software that solves real-world challenges.";
 
 const AboutSection = () => {
   return (
@@ -69,7 +69,6 @@ const AboutSection = () => {
                 
                 {/* ID Metadata */}
                 <div className="mt-8 w-full border-t border-white/10 pt-6 flex flex-col gap-4">
-                  {/* TODO: Resume did not include a city/location — inferred "Tamil Nadu, IN" from institute names. Replace with your exact city if different. */}
                   <div className="flex justify-between items-center text-[10px] sm:text-xs font-medium uppercase tracking-widest text-[#D7E2EA]/50">
                     <span>Base</span>
                     <span className="text-white font-bold">Tamil Nadu, IN</span>
@@ -124,20 +123,20 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8 w-full max-w-7xl mx-auto px-4 sm:px-0">
               {[
                 {
-                  label: 'Languages',
-                  items: ['Java', 'Python', 'JavaScript', 'HTML5', 'CSS3', 'SQL'],
+                  label: 'Languages & AI',
+                  items: ['Python', 'Java', 'YOLOv8', 'Computer Vision', 'Image Processing'],
                 },
                 {
-                  label: 'Web & Backend',
-                  items: ['PHP', 'MySQL', 'REST APIs'],
+                  label: 'Frontend Engineering',
+                  items: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Next.js'],
                 },
                 {
-                  label: 'Tools & Platforms',
-                  items: ['Git', 'GitHub', 'VS Code'],
+                  label: 'Backend & Databases',
+                  items: ['Node.js', 'Express.js', 'Flask', 'MySQL', 'MongoDB', 'PostgreSQL', 'SQLite', 'Supabase'],
                 },
                 {
-                  label: 'Personal Skills',
-                  items: ['Time Management', 'Team Adaptability', 'Quick Decision-Making'],
+                  label: 'Tools & Soft Skills',
+                  items: ['Git', 'GitHub', 'VS Code', 'Xampp', 'Time Management', 'Team Work', 'Adaptability'],
                 },
               ].map((group) => (
                 <div
@@ -161,6 +160,7 @@ const AboutSection = () => {
               ))}
             </div>
           </FadeIn>
+
 
           {/* Live Activity Section */}
           <FadeIn delay={0.6} y={30} className="w-full mt-20">

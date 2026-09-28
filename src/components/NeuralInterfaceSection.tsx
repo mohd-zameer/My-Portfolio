@@ -12,23 +12,23 @@ type Message = {
 const KNOWLEDGE_BASE = [
   {
     keywords: ['project', 'work', 'build', 'salemfarm', 'mango', 'event', 'booking'],
-    response: "> QUERY MATCH: 'PROJECTS'\n> Zameer has built:\n> 1. [SalemFarm Mango]: E-commerce website built during his internship (HTML5, CSS3, JavaScript, PHP, MySQL).\n> 2. [Event Booking System]: Responsive booking platform with listings, booking management, and client-side validation."
+    response: "> QUERY MATCH: 'PROJECTS'\n> Zameer has built:\n> 1. [SalemFarm Mango]: E-commerce website built during his Zouis Corp internship (HTML5, CSS3, JavaScript, PHP, MySQL, React.js, Node.js).\n> 2. [Waste Geo-Tracking & Alerting System]: AI prototype using Python, YOLOv8n, Flask, SQLite, and Leaflet.js with OpenStreetMap for waste detection and routing."
   },
   {
-    keywords: ['skill', 'tech', 'stack', 'language', 'framework', 'java', 'python', 'php', 'database'],
-    response: "> QUERY MATCH: 'SKILLS'\n> LANGUAGES: Java, Python\n> WEB: HTML5, CSS3, PHP, JavaScript\n> DATABASES: SQL, MySQL\n> TOOLS: Git\n> PERSONAL: Time management, team adaptability, quick decision-making."
+    keywords: ['skill', 'tech', 'stack', 'language', 'framework', 'java', 'python', 'flask', 'react', 'next', 'node', 'yolo'],
+    response: "> QUERY MATCH: 'SKILLS'\n> LANGUAGES: Python, Java\n> FRONTEND: HTML5, CSS3, JavaScript, React.js, Next.js\n> BACKEND: Node.js, Express.js, Flask\n> AI / CV: YOLOv8, Computer Vision, Image Processing\n> DATABASES: MySQL, MongoDB, PostgreSQL, SQLite, Supabase\n> TOOLS: Git, GitHub, VS Code, Xampp\n> PERSONAL: Time management, team work, adaptability, quick decision-making."
   },
   {
-    keywords: ['experience', 'education', 'background', 'university', 'nehru', 'internship'],
-    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: B.E. Computer Science & Engineering, Nehru Institute of Technology (2023 - 2027).\n> INTERNSHIPS: Web Developer Intern at Zouis Corp (Feb-Apr 2026) and Codec Technologies (Apr-May 2026).\n> OBJECTIVE: Starting a career as a Computer Science Engineer, applying programming and software development skills to innovative projects."
+    keywords: ['experience', 'education', 'background', 'university', 'nehru', 'internship', 'zouis'],
+    response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: B.E. Computer Science & Engineering, Nehru Institute of Technology (2023 - 2027), CGPA: 7.8.\n> INTERNSHIPS: Web Developer Intern at Zouis Corp (Feb 23, 2026 – Apr 10, 2026).\n> OBJECTIVE: Starting a career as a Computer Science Engineer, applying programming, problem-solving, and software development skills."
   },
   {
     keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],
-    response: "> QUERY MATCH: 'CONTACT_INFO'\n> EMAIL: mohamedzameerofficial26@gmail.com\n> PHONE: +91 86104 25244\n> LINKEDIN: linkedin.com/in/mohamedameer26\n> GITHUB: github.com/mohd-zameer\n> LEETCODE: leetcode.com/u/Mohd_Zameer07"
+    response: "> QUERY MATCH: 'CONTACT_INFO'\n> EMAIL: mohamedzameerofficial26@gmail.com\n> PHONE: +91 86104 25244\n> LINKEDIN: linkedin.com/in/mohamedzameer\n> GITHUB: github.com/mohd-zameer\n> LEETCODE: leetcode.com/u/Mohd_Zameer07"
   },
   {
-    keywords: ['certification', 'certificate', 'nptel', 'coursera'],
-    response: "> QUERY MATCH: 'CERTIFICATIONS'\n> NPTEL Elite: Internet of Things (IIT Bombay), Privacy & Security in Online Social Media (IIT Hyderabad), Environmental Planning & Management (IIT Roorkee).\n> Coursera/IBM: Python for Data Science AI & Development, Exploratory Data Analysis for ML.\n> Coursera/Meta: Foundations of Cybersecurity, Introduction to Android Mobile Application."
+    keywords: ['certification', 'certificate', 'nptel', 'coursera', 'ibm', 'meta'],
+    response: "> QUERY MATCH: 'CERTIFICATIONS'\n> NPTEL Elite: Internet of Things (IIT Bombay | Jan-Apr 2025), Privacy & Security in Online Social Media (IIT Hyderabad | Jul-Oct 2025).\n> Coursera/IBM: Python for Data Science AI & Development, Exploratory Data Analysis for ML.\n> Coursera/Meta: Foundations of Cybersecurity, Introduction to Android Mobile Application."
   },
   {
     keywords: ['hi', 'hello', 'hey', 'greetings', 'who', 'system'],
@@ -125,45 +125,46 @@ Start every response with "> " to match the terminal aesthetic. Keep answers con
 Here is Zameer's exact, up-to-date CV data:
 
 MOHAMED ZAMEER J
-Computer Science Engineering Student | Web Developer
-mohamedzameerofficial26@gmail.com • +91 86104 25244 • linkedin.com/in/mohamedameer26 • github.com/mohd-zameer • leetcode.com/u/Mohd_Zameer07
+Computer Science Engineering Student | Full Stack & AI Developer
+mohamedzameerofficial26@gmail.com • +91 86104 25244 • linkedin.com/in/mohamedzameer • github.com/mohd-zameer
 
 OBJECTIVE
-To start his career as a Computer Science Engineer, applying programming, problem-solving, and software development skills to contribute to innovative projects while enhancing his technical expertise.
+To start my career as a Computer Science Engineer where I can apply my programming, problemsolving, and software development skills to contribute to innovative projects while enhancing my technical expertise.
 
 TECHNICAL SKILLS
-- Languages: Java, Python
-- Web: HTML5, CSS3, PHP
-- Databases: SQL, MySQL
-- Tools: Git
+- Languages: Python, Java
+- Frontend: HTML5, CSS3, JavaScript, React.js, Next.js
+- Backend: Node.js, Express.js, Flask
+- AI / Computer Vision: YOLOv8, Computer Vision, Image Processing
+- Database: MySQL, MongoDB, PostgreSQL, SQLite, Supabase
+- Tools: Git, GitHub, VS Code, Xampp
 
 PROJECTS
 1. SalemFarm Mango — E-Commerce Website (Internship Project)
-   - HTML5, CSS3, JavaScript, PHP, MySQL
-   - Developed and optimized responsive web applications, improving website responsiveness and delivering a seamless user experience.
+   - Tech Stack: HTML5, CSS3, JavaScript, PHP, MySQL, React.js, Node.js
+   - Developed responsive web applications, implementing frontend components, backend functionality, API integration, and database connectivity.
 
-2. Event Booking System
-   - Designed and developed a responsive event booking system featuring event listings, booking management, client-side validation, and an intuitive UI to streamline the registration process.
+2. Computer Vision-Based Geo-Tracking of Waste and Alerting System — AI Prototype Model
+   - Tech Stack: Python, YOLOv8n, Flask, SQLite, Leaflet.js, OpenStreetMap
+   - Developed a prototype using Python and pretrained YOLOv8n for waste detection with rule-based fill-level estimation, geo-tagging, visualization, and routing.
 
-INTERNSHIPS
-- Web Developer Intern, Zouis Corp (Feb 2026 – Apr 2026): Developed responsive web applications using HTML, CSS, JavaScript, PHP, and MySQL, contributing to the SalemFarm Mango e-commerce project.
-- Web Developer Intern, Codec Technologies (Apr 2026 – May 2026): Developed and maintained web application features, performed testing and debugging, collaborated with the development team.
+INTERNSHIP
+- Web Developer Intern, Zouis Corp (Feb 23, 2026 – Apr 10, 2026): Developed responsive web applications using HTML, CSS, JavaScript, PHP, and MySQL, contributing to the SalemFarm Mango e-commerce project.
 
 EDUCATION
-- B.E. Computer Science and Engineering — Nehru Institute of Technology (2023 – 2027, final year), CGPA 7.8
+- Bachelor of Engineering (B.E) in Computer Science and Engineering — Nehru Institute of Technology (2023 – 2027, final year), CGPA: 7.8
 - HSC — Bharathiyar Matriculation Higher Secondary School (2023), 65%
 - SSLC — Bharathiyar Matriculation Higher Secondary School (2021), Pass
 
 CERTIFICATIONS
-- Internet of Things (NPTEL Elite) — IIT Bombay
-- Privacy and Security in Online Social Media (NPTEL Elite) — IIT Hyderabad
-- Environmental Planning and Management (NPTEL Elite) — IIT Roorkee
+- Internet of Things (NPTEL Elite) — IIT Bombay (Jan-Apr 2025)
+- Privacy and security in online social media (NPTEL Elite) — IIT Hyderabad (Jul-Oct 2025)
 - Python for Data Science, AI & Development — IBM / Coursera
 - Exploratory Data Analysis for Machine Learning — IBM / Coursera
 - Foundations of Cybersecurity — Meta / Coursera
 - Introduction to Android Mobile Application — Meta / Coursera
 
-PAPER PRESENTATION
+PAPER PRESENTATION / PARTICIPATION
 - Computer Vision Based Geo Tracking of Waste and Alerting System — presented at a national-level conference, Nehru Institute of Engineering and Technology
 
 SEMINARS & WORKSHOPS
@@ -171,7 +172,7 @@ SEMINARS & WORKSHOPS
 - "How to Handle and Implementation of AI Tools" Program, Sri Shakthi Institute of Engineering & Technology
 
 PERSONAL SKILLS
-Time management, team adaptability, quick decision-making
+- Time management, Team work, adaptability, Quick decision Maker
 `;
 
         const groqMessages = [

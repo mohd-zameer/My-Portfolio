@@ -26,8 +26,8 @@ const PROJECTS: ProjectData[] = [
   },
   {
     number: '02',
-    category: 'Web Application',
-    name: 'Event Booking System',
+    category: 'AI Prototype / Computer Vision',
+    name: 'Waste Geo-Tracking & Alerting System',
     liveUrl: '#',
     col1Image1: '/event_1.webp',
     col1Image2: '/event_2.webp',

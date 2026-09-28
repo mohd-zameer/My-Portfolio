@@ -20,24 +20,28 @@ const TerminalMode = () => {
   // KNOWLEDGE BASE FOR TERMINAL AI
   const KNOWLEDGE_BASE = [
     {
-      keywords: ['project', 'work', 'build', 'salemfarm', 'mango', 'event', 'booking'],
-      response: "> QUERY MATCH: 'PROJECTS'\n> Zameer has built:\n> 1. [SalemFarm Mango]: E-commerce website built during his internship (HTML5, CSS3, JavaScript, PHP, MySQL).\n> 2. [Event Booking System]: Responsive booking platform with listings, booking management, and client-side validation."
+      keywords: ['project', 'work', 'build', 'salemfarm', 'mango', 'waste', 'tracking', 'yolo'],
+      response: "> QUERY MATCH: 'PROJECTS'\n> Zameer has built:\n> 1. [SalemFarm Mango]: E-commerce website built during his Zouis Corp internship (HTML5, CSS3, JavaScript, PHP, MySQL, React.js, Node.js).\n> 2. [Waste Geo-Tracking & Alerting System]: AI prototype utilizing Python and YOLOv8n for waste detection, fill-level estimation, Flask, SQLite, and Leaflet.js with OpenStreetMap."
     },
     {
-      keywords: ['skill', 'tech', 'stack', 'language', 'framework', 'java', 'python', 'php', 'database'],
-      response: "> QUERY MATCH: 'SKILLS'\n> LANGUAGES: Java, Python\n> WEB: HTML5, CSS3, PHP\n> DATABASES: SQL, MySQL\n> TOOLS: Git."
+      keywords: ['skill', 'tech', 'stack', 'language', 'framework', 'java', 'python', 'flask', 'react', 'next', 'node', 'database', 'yolo'],
+      response: "> QUERY MATCH: 'SKILLS'\n> LANGUAGES: Python, Java\n> FRONTEND: HTML5, CSS3, JavaScript, React.js, Next.js\n> BACKEND: Node.js, Express.js, Flask\n> AI / CV: YOLOv8, Computer Vision, Image Processing\n> DATABASES: MySQL, MongoDB, PostgreSQL, SQLite, Supabase\n> TOOLS: Git, GitHub, VS Code, Xampp\n> PERSONAL: Time management, team work, adaptability, quick decision-making."
     },
     {
-      keywords: ['experience', 'education', 'background', 'university', 'nehru', 'internship'],
-      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: B.E. Computer Science & Engineering, Nehru Institute of Technology (2023 - 2027).\n> INTERNSHIPS: Zouis Corp, Codec Technologies.\n> OBJECTIVE: Starting a career as a Computer Science Engineer."
+      keywords: ['experience', 'education', 'background', 'university', 'nehru', 'internship', 'zouis'],
+      response: "> QUERY MATCH: 'EXPERIENCE & EDUCATION'\n> EDUCATION: B.E. Computer Science & Engineering, Nehru Institute of Technology (2023 - 2027), CGPA: 7.8.\n> INTERNSHIPS: Web Developer Intern at Zouis Corp (Feb 2026 - Apr 2026).\n> OBJECTIVE: Starting a career as a Computer Science Engineer applying programming, problem-solving, and software development skills."
     },
     {
       keywords: ['contact', 'email', 'phone', 'hire', 'reach', 'github', 'linkedin'],
-      response: "> QUERY MATCH: 'CONTACT_INFO'\n> EMAIL: mohamedzameerofficial26@gmail.com\n> PHONE: +91 86104 25244\n> LINKEDIN: linkedin.com/in/mohamedameer26\n> GITHUB: github.com/mohd-zameer"
+      response: "> QUERY MATCH: 'CONTACT_INFO'\n> EMAIL: mohamedzameerofficial26@gmail.com\n> PHONE: +91 86104 25244\n> LINKEDIN: linkedin.com/in/mohamedzameer\n> GITHUB: github.com/mohd-zameer"
+    },
+    {
+      keywords: ['certification', 'certificate', 'nptel', 'coursera', 'ibm', 'meta'],
+      response: "> QUERY MATCH: 'CERTIFICATIONS'\n> NPTEL Elite: Internet of Things (IIT Bombay | Jan-Apr 2025), Privacy & Security in Online Social Media (IIT Hyderabad | Jul-Oct 2025).\n> Coursera/IBM: Python for Data Science AI & Development, Exploratory Data Analysis for ML.\n> Coursera/Meta: Foundations of Cybersecurity, Introduction to Android Mobile Application."
     },
     {
       keywords: ['hi', 'hello', 'hey', 'greetings', 'who', 'system'],
-      response: "> GREETING PROTOCOL: ENGAGED\n> Hello. I am an AI assistant for Mohamed Zameer's portfolio. Query me regarding his [PROJECTS], [SKILLS], or [CONTACT] info."
+      response: "> GREETING PROTOCOL: ENGAGED\n> Hello. I am an AI assistant for Mohamed Zameer's portfolio. Query me regarding his [PROJECTS], [SKILLS], [CERTIFICATIONS], or [CONTACT] info."
     }
   ];
 
@@ -129,7 +133,7 @@ const TerminalMode = () => {
               <div><span className="text-white/50 font-bold">OS:</span> ZameerOS v1.0.0</div>
               <div><span className="text-white/50 font-bold">Host:</span> Neural_Interface_Node_01</div>
               <div><span className="text-white/50 font-bold">Kernel:</span> 5.15.0-generic (Cybernetics)</div>
-              <div><span className="text-white/50 font-bold">Packages:</span> Java, Python, PHP, MySQL</div>
+              <div><span className="text-white/50 font-bold">Packages:</span> Python, Java, React, Node, Flask, YOLOv8, MySQL, Git</div>
               <div><span className="text-white/50 font-bold">Shell:</span> bash 5.1.16</div>
               <div><span className="text-white/50 font-bold">Role:</span> CSE Student & Web Developer</div>
               <div><span className="text-white/50 font-bold">Institute:</span> Nehru Institute of Technology</div>
@@ -161,7 +165,7 @@ const TerminalMode = () => {
         output = 'Error: Cannot print binary file to terminal. Please use the GUI to download.';
         break;
       case 'cat contact.txt':
-        output = 'Email: mohamedzameerofficial26@gmail.com\nLinkedIn: /in/mohamedameer26';
+        output = 'Email: mohamedzameerofficial26@gmail.com\nLinkedIn: /in/mohamedzameer';
         break;
       case 'clear':
         setHistory([]);

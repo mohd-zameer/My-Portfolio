@@ -16,35 +16,30 @@ const CERTIFICATES: Certificate[] = [
   {
     id: 1,
     title: 'Internet of Things (NPTEL Elite)',
-    description: 'Offered by IIT Bombay.',
+    description: 'Offered by IIT Bombay | Jan-Apr 2025',
   },
   {
     id: 2,
-    title: 'Privacy and Security in Online Social Media (NPTEL Elite)',
-    description: 'Offered by IIT Hyderabad.',
+    title: 'Privacy and security in online social media (NPTEL Elite)',
+    description: 'Offered by IIT Hyderabad | Jul-Oct 2025',
   },
   {
     id: 3,
-    title: 'Environmental Planning and Management (NPTEL Elite)',
-    description: 'Offered by IIT Roorkee.',
-  },
-  {
-    id: 4,
     title: 'Python for Data Science, AI & Development',
     description: 'Authorized by IBM, offered through Coursera.',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Exploratory Data Analysis for Machine Learning',
     description: 'Authorized by IBM, offered through Coursera.',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Foundations of Cybersecurity',
     description: 'Authorized by Meta, offered through Coursera.',
   },
   {
-    id: 7,
+    id: 6,
     title: 'Introduction to Android Mobile Application',
     description: 'Authorized by Meta, offered through Coursera.',
   },

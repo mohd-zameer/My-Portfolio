@@ -28,8 +28,8 @@ const CONTACT_METHODS: ContactMethod[] = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'in/mohamedameer26',
-    href: 'http://www.linkedin.com/in/mohamedameer26/',
+    value: 'in/mohamedzameer',
+    href: 'https://www.linkedin.com/in/mohamedzameer/',
     hoverColor: '#0A66C2',
   },
   {
